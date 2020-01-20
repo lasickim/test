@@ -1,0 +1,6 @@
+ul, ol, li {list-style:none; margin:0; padding:0;}
+
+ul.Menu {}
+ul.menu > li {display:inline-block; width:800px; padding:5px 10px;
+background:#eee; text-align:center;}
+ul.Menu > li ul.submenu { display:none; }

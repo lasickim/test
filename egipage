@@ -1,0 +1,57 @@
+<div class="container">
+</div>
+<div class="twobord bord align-center"><h1>PRODUCT</h1></div>
+<div style="width:106px; height:70px; position:absolute; margin: 504px 0 0 200px;">
+<input type="image" src="https://imgur.com/LmyzfI6.png" style="width:50px; height: 70px;" onclick="addday()">
+<input type="image" src="https://imgur.com/ytmT5JY.png" style="width:50px; height: 70px;" onclick="addnight()">
+</div>
+<div style="width:50px; height:70px; position:absolute; margin: 584px 0 0 227px;"><img src="https://imgur.com/tfRoEab.png">
+</div>
+<div class="container">
+
+  <div id="a"><img src="https://imgur.com/XWM9VmI.png"></div>
+  <div style="width: 500px; height: 400px; background-color: #000000; margin: 20px 0 0 600px; display: inline-block;">
+    <div style="width:420px; height:100px; margin: 30px 0 0 40px; font-size: 50px; font-family: 'Oswald', sans-serif; color:white;">KATSURAGI EGI</div>
+    <div style="width:420px; height: 50px; border-top: 2px solid #FFF; border-bottom: 2px solid #FFF; margin-left: 30px; line-height: 30px;">
+      <span style="color:white;">販売価格(税別)</span>
+      <span style="font-size: 40px; font-weight: 900; margin: 0px 0 0 30px; color:white;">¥900</span>
+      <div id="num">B01</div>
+    </div>
+  </div>
+  <div style="margin-top: 50px;">
+    <div style="border-bottom: 2px solid #FFF; display: block; color: #FFF; margin-top: 10px;">BASIC LINE (CLICK IMAGE)</div>
+  <div id="bgh"></div>
+  <div style="border-bottom: 2px solid #FFF; display: block; color: #FFF; margin-top: 10px;">SHALLOW LINE (CLICK IMAGE)</div>
+  <div id="bgs"></div>
+<div style="background-color: white">
+  <h2 class="probord">PRODUCT DETAILS</h2>
+</div>
+
+<div style="width: auto; height: 400px; background-image: url(https://imgur.com/74DHIvI.png); padding:0px 0 0 50px;"><div style="margin: 0 40px 50px 650px; padding: 20px 0 0 220px; font-family: 'Noto Serif JP', serif; color:#FFF;"><h2 style="font-size:30px;">【プレミアムカラーラインナップ】</h2><p>
+実績が証明するボディと、<br>ナチュラルからベーシック、<br>ラメまでで選び易い布の組み合わせ。<br>
+濁りの中、まづめ時、<br>ローライトの中でも対応できる<br>高級で様々なカラーパターンで、<br>状況に応じたセレクトが可能です。</div></div>
+
+<div style="width: auto; height: 400px; background-image: url(https://imgur.com/Obnm8H0.png); color:#FFF; font-family: 'Noto Serif JP', serif; "><div style="margin: 30px 0 0 550px; padding: 10px 100px 0 50px;"><h2 style="color: #FFF; font-size:40px;">【ぶっ飛び性能のエギ！】</h2>
+「SHINONOME」が考える釣る為のエギを具現化。高重量と独特のボディー形状により想像を超えた飛距離を実現。</div>
+</div>
+
+<div style="width: auto; height: 400px; background-image: url(https://imgur.com/E9ZDcF7.png); font-family: 'Noto Serif JP', serif;"><div style="margin: 30px 50px 100px 500px; padding-top: 230px; "><h2 style="color: #FFF; font-size:35px;">【夜光目玉】</h2><p>
+<div style="color: #FFF;">日中、ディープ、マズメ、ナイト全ての状況下でアピールする実績の高いリアル目玉。</div></div></div>
+
+<div style="width: auto; height: 400px; background-image: url(https://imgur.com/BfBZMYB.png); font-family: 'Noto Serif JP', serif; padding:  0px 0 0 30px; margin-top: 30px;"><div style="padding: 80px 800px 0 20px;"><h2 style="font-size:40px;">【イカの掛かりを重視した鋭い針】</h2><p>
+触れただけで掛かる！<br>そして耐久性にもこだわった高級針を使用。<br>
+強度と刺さりやすさを考慮し、<br>刺さってからはバレにくい丸曲げを採用。
+</div></div>
+
+<div style="width: auto; height: 400px; background-image: url(https://imgur.com/0lM5Tgh.png); font-family: 'Noto Serif JP', serif;"><div style="padding:  30px 0 0 710px; margin-top: 30px;"><h2 style="font-size:40px;">【最適な「フォール」と「ダートアクション」】
+</h2><p>
+「かつらぎ」は、どんなにタフハイプレッシャーなコンディションでも釣果を出せるよう開発されたエギです。<br>①45度の安定した乗せのフォールと、<br>②必要以上にダートしすぎないダートアクションを実現し、<br>限りなくイカの好むアクションに仕上げました。</div></div>
+</div>
+
+<div style="width: auto; height: 400px; background-image: url(https://imgur.com/hthJiEv.png); font-family: 'Noto Serif JP', serif; color: #FFF; margin: 30px 0 0 0;"></div>
+</div>
+</div>
+<script>
+addday();
+</script>
+<script src="egi.js"></script>

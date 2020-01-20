@@ -1,0 +1,43 @@
+#stanimg{
+  display: inline-block;
+}
+#a{
+  display: inline-block;
+  width: 500px;
+  height: 400px;
+  background: url(https://imgur.com/jpLWTnQ.png);
+  margin-top: 20px;
+  font-size: 60px;
+  border: 3px solid red;
+  position: absolute;
+}
+#num{
+  height: 100px;
+  margin: 60px 0 0 150px;
+  font-size: 160px;
+  color:#FFF;
+  border: 2px solid #FFF;
+  padding: 50px 0 0 30px;
+  font-family: 'Oswald', sans-serif;
+}
+.bg{
+  background-color: #FFF;
+  margin: 10px 0 0 10px;
+  display: inline-block;
+  border: 3px solid pink;
+}
+.bg1{
+  background-color: #000000;
+  margin: 10px 0 0 10px;
+  display: inline-block;
+  border: 3px solid pink;
+}
+#bgh{
+
+}
+#bgs{
+
+}
+#pre_set{
+
+}

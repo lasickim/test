@@ -1,0 +1,158 @@
+<!doctype HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Shinonome</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="slide.css">
+  <script src="slide.js"></script>
+  <script type="text/javascript">
+  var shinseilogo = "https://imgur.com/HrjhE3G.png";
+  var shinonomelogo = "https://imgur.com/vIirEqk.png";
+    function clickshinsei(){
+      removelogo();
+      var logocre = document.createElement('div');
+      logocre.className = "logo";
+      var test = '<input type= "image" src =' + shinseilogo + '>';
+      logocre.innerHTML = test;
+      document.getElementById('shinsei').appendChild(logocre);
+    }
+    function clickshinonome(){
+      removelogo();
+      var logocre = document.createElement('div');
+      logocre.className = "logo";
+      var test = '<input type= "image" src =' + shinonomelogo + '>';
+      logocre.innerHTML = test;
+      document.getElementById('shinsei').appendChild(logocre);
+    }
+    function removelogo(){
+      document.getElementById('shinsei').innerHTML = "";
+    }
+  </script>
+<style type="text/css">
+  .submenu{
+    height: 0px;
+    position: absolute;
+    overflow: hidden;
+    transition-property: height;
+    transition-duration: 0.5s;
+  }
+  .mainmenu:hover .submenu{
+    height: 60px;
+  }
+  .submenu li{
+    font-size: 20px;
+    float: none;
+  }
+  #shinsei {}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div id="shinsei"></div>
+
+  <nav class="topnav">
+  <ul>
+      <li>
+  <a onclick="fetch('home').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;
+  })
+  });
+">HOME</a>
+  </li>
+  <li class="mainmenu">
+    <a>PRODUCT</a>
+      <ul class="submenu">
+        <li><a onclick="fetch('product').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;})
+        }); clickshinonome();
+          ">SHINONOME</a></li>
+        <li><a onclick="fetch('shinseiproduct').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;})
+        }); clickshinsei();
+          ">SHINSEI</a></li>
+      </ul>
+  </li>
+  <!--<li>
+    <a onclick="fetch('product').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;
+        })
+        });
+      ">PRODUCT</a>
+  </li>-->
+  <li>
+  <a onclick="fetch('concept').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;})
+}); ">CONCEPT</a>
+  </li>
+
+  <li>
+  <a onclick="fetch('about').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;})
+}); ">ABOUT US</a>
+  </li>
+  <li>
+  <a onclick="fetch('news').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;})
+}); ">NEWS</a>
+  </li>
+  </ul>
+  </nav>
+</div>
+<div class="bord"></div>
+
+  <article>
+    <div class="container">
+      <div class="active">
+        <div class="slide">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <!--<a href="slide.html" target="_blank"><img src="https://imgur.com/Nt8zZvk.png" alt="BannerTest1"></a>-->
+      </div>
+    </div>
+    </div>
+      <div class="bord"></div>
+    <div id="bgimg">
+      <div class="container">
+        <div class="inpo">
+      イカ釣りの魅力を存分に！<p>
+    エギングやティップランでアオリイカをターゲットとしデザイン・開発！<br>
+    クオリティーを最優先とする釣具ブランドSHINONOME！<p>
+    今では、アオリイカに限らず近年大人気の釣りイカメタルゲームでのケンサキ(マイカ)釣りや<br>
+    タイラバで狙う真鯛釣りに関する、ロッド・ルアーまで販売しています。
+    </div>
+    </div>
+    </div>
+    <div id="bgimg2">
+      <div class="container">
+      <div class="inpo">
+    すべては、水平線に輝く東雲の如く…<p>
+    SHINONOMEは、釣り人にとっても、そしてターゲットとなる対象魚にとっても魅力的なアイテム作りを心がけています。<br>エギやスッテをはじめとし、ルアー類全般と様々な商品でユーザーの方々に感動をささげることを目指します。
+    </div>
+    </div>
+    </div>
+  </article>
+<script>clickshinonome();</script>
+<footer class="container">
+  <div>
+    <ul style="
+      border: 1px solid: #FFF;
+      text-align: center;
+      font-family: 'Sawarabi Mincho', sans-serif;
+      font-size : 20px;">
+      <li onclick="fetch('home').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;})
+    });">トップページ</li>
+      <li>製品情報</li>
+      <li onclick="fetch('concept').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;})
+    }); ">コンセプト</li>
+      <li onclick="fetch('news').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;})
+    }); ">お知らせ</li>
+      <li onclick="fetch('about').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;})
+    }); ">会社案内</li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

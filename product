@@ -1,0 +1,12 @@
+<div class="bord align-center"><h1>SHINONOME PRODUCT</h1></div>
+  <div class="container">
+        <div class="imgswap">
+        <h2 class="productbord">EGI</h2>
+        <a onclick="fetch('egipage').then(function(response){response.text().then(function(text){document.querySelector('article').innerHTML = text;})
+      });"><img src="https://imgur.com/LHWzTUu.png" width="1200px" height="400"><img src="https://imgur.com/wfC6oaz.png" width="1200px" height="400"></a>
+      </div>
+        <div class="imgswap">
+        <h2 class="productbord">SUTTE</h2>
+        <a href="mimg2.html"><img src="https://imgur.com/FqzBPzU.png" width="1200px" height="400"><img src="https://imgur.com/0d8GjR2.png" width="1200px" height="400"></a>
+      </div>
+  </div>
